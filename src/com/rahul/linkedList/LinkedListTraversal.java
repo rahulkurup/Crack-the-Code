@@ -1,6 +1,6 @@
 package com.rahul.linkedList;
 
-public class LinkedList {	
+public class LinkedListTraversal {	
 	
 	Node head;
 	
@@ -43,7 +43,7 @@ public class LinkedList {
 
 	public static void main(String[] args) {
 		
-		LinkedList ll = new LinkedList();
+		LinkedListTraversal ll = new LinkedListTraversal();
 		ll.setHead(new Node(1));
 		Node two = new Node(2);
 		Node three = new Node(3);
