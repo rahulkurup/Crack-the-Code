@@ -27,7 +27,8 @@ public class SampleLinkedList {
 				 setHead(previous);
 			} else {
 				Node current = new Node(i);
-				previous.setNext(current);				
+				previous.setNext(current);		
+				previous= current;
 			}
 		}
 	}
