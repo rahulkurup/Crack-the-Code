@@ -6,3 +6,5 @@ The Coding Challenges
 2) Delete a node in Linkedlist
 
 3) Middle of a LinkedList (Efficiently)
+
+4) Reverse a LinkedList (Recursive)
