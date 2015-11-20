@@ -4,7 +4,7 @@ public class MiddleOfLL {
 
 	public static void main(String[] args) {
 		
-		SampleLinkedList ll = new SampleLinkedList(11);
+		SampleLinkedList ll = new SampleLinkedList(6);
 		System.out.println(getMiddle(ll));
 	}
 	
