@@ -27,13 +27,14 @@ public class RandomNodeInLinkedList {
 			current = current.getNext();
 		}
 		
-		int random = (int)Math.random() * count;
+		int random = (int)(Math.random() * (count + 1));
 		
 		int i = 0;
 		current = ll.getHead();
 
 		while(i < random) {
 			current = current.getNext();
+			i++;
 		}
 		return current.getData();
 	}
